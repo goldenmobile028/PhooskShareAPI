@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C11EE44D8E2B7933080424A /* Pods_PhooskShareAPI_PhooskShareAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B46C874841A6A1BFD241D5C /* Pods_PhooskShareAPI_PhooskShareAPIUITests.framework */; };
+		71CD30286B8699E1CACA177A /* Pods_PhooskShareAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25705B74545CC3BC782035D8 /* Pods_PhooskShareAPITests.framework */; };
+		D890DF65E89E216700D2A7FC /* Pods_PhooskShareAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3FB97F8C2F5A65CE2C90AE /* Pods_PhooskShareAPI.framework */; };
+		E2BD0C0624B8299D003386C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD0C0524B8299D003386C1 /* AppDelegate.m */; };
+		E2BD0C0924B8299D003386C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD0C0824B8299D003386C1 /* SceneDelegate.m */; };
+		E2BD0C0C24B8299D003386C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD0C0B24B8299D003386C1 /* ViewController.m */; };
+		E2BD0C0F24B8299D003386C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BD0C0D24B8299D003386C1 /* Main.storyboard */; };
+		E2BD0C1124B8299F003386C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BD0C1024B8299F003386C1 /* Assets.xcassets */; };
+		E2BD0C1424B8299F003386C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BD0C1224B8299F003386C1 /* LaunchScreen.storyboard */; };
+		E2BD0C1724B8299F003386C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD0C1624B8299F003386C1 /* main.m */; };
+		E2BD0C2124B8299F003386C1 /* PhooskShareAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD0C2024B8299F003386C1 /* PhooskShareAPITests.m */; };
+		E2BD0C2C24B8299F003386C1 /* PhooskShareAPIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD0C2B24B8299F003386C1 /* PhooskShareAPIUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2BD0C1D24B8299F003386C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2BD0BF924B8299D003386C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BD0C0024B8299D003386C1;
+			remoteInfo = PhooskShareAPI;
+		};
+		E2BD0C2824B8299F003386C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2BD0BF924B8299D003386C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BD0C0024B8299D003386C1;
+			remoteInfo = PhooskShareAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A20507CD9E61FB22263D531 /* Pods-PhooskShareAPI-PhooskShareAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareAPI-PhooskShareAPIUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhooskShareAPI-PhooskShareAPIUITests/Pods-PhooskShareAPI-PhooskShareAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B929A4A670660F7D016D3DF /* Pods-PhooskShareAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareAPI.release.xcconfig"; path = "Target Support Files/Pods-PhooskShareAPI/Pods-PhooskShareAPI.release.xcconfig"; sourceTree = "<group>"; };
+		228A77D3A9087CD0CC6004B8 /* Pods-PhooskShareAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareAPITests.debug.xcconfig"; path = "Target Support Files/Pods-PhooskShareAPITests/Pods-PhooskShareAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25705B74545CC3BC782035D8 /* Pods_PhooskShareAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhooskShareAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298E91ADAC02887324B4D483 /* Pods-PhooskShareAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareAPITests.release.xcconfig"; path = "Target Support Files/Pods-PhooskShareAPITests/Pods-PhooskShareAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F4413CBF64F12FC6922B5E9 /* Pods-PhooskShareAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareAPI.debug.xcconfig"; path = "Target Support Files/Pods-PhooskShareAPI/Pods-PhooskShareAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		7C76E3D6F3409905D3236B75 /* Pods-PhooskShareAPI-PhooskShareAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhooskShareAPI-PhooskShareAPIUITests.release.xcconfig"; path = "Target Support Files/Pods-PhooskShareAPI-PhooskShareAPIUITests/Pods-PhooskShareAPI-PhooskShareAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B46C874841A6A1BFD241D5C /* Pods_PhooskShareAPI_PhooskShareAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhooskShareAPI_PhooskShareAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3FB97F8C2F5A65CE2C90AE /* Pods_PhooskShareAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhooskShareAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BD0C0124B8299D003386C1 /* PhooskShareAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhooskShareAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BD0C0424B8299D003386C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2BD0C0524B8299D003386C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2BD0C0724B8299D003386C1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E2BD0C0824B8299D003386C1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E2BD0C0A24B8299D003386C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2BD0C0B24B8299D003386C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2BD0C0E24B8299D003386C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2BD0C1024B8299F003386C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2BD0C1324B8299F003386C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2BD0C1524B8299F003386C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BD0C1624B8299F003386C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2BD0C1C24B8299F003386C1 /* PhooskShareAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhooskShareAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BD0C2024B8299F003386C1 /* PhooskShareAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhooskShareAPITests.m; sourceTree = "<group>"; };
+		E2BD0C2224B8299F003386C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BD0C2724B8299F003386C1 /* PhooskShareAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhooskShareAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BD0C2B24B8299F003386C1 /* PhooskShareAPIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhooskShareAPIUITests.m; sourceTree = "<group>"; };
+		E2BD0C2D24B8299F003386C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2BD0BFE24B8299D003386C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D890DF65E89E216700D2A7FC /* Pods_PhooskShareAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD0C1924B8299F003386C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CD30286B8699E1CACA177A /* Pods_PhooskShareAPITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD0C2424B8299F003386C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C11EE44D8E2B7933080424A /* Pods_PhooskShareAPI_PhooskShareAPIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00D8347AE01DD8FDBF0C3B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F4413CBF64F12FC6922B5E9 /* Pods-PhooskShareAPI.debug.xcconfig */,
+				1B929A4A670660F7D016D3DF /* Pods-PhooskShareAPI.release.xcconfig */,
+				1A20507CD9E61FB22263D531 /* Pods-PhooskShareAPI-PhooskShareAPIUITests.debug.xcconfig */,
+				7C76E3D6F3409905D3236B75 /* Pods-PhooskShareAPI-PhooskShareAPIUITests.release.xcconfig */,
+				228A77D3A9087CD0CC6004B8 /* Pods-PhooskShareAPITests.debug.xcconfig */,
+				298E91ADAC02887324B4D483 /* Pods-PhooskShareAPITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9430DF68ECFAC602CEDAE13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FB97F8C2F5A65CE2C90AE /* Pods_PhooskShareAPI.framework */,
+				8B46C874841A6A1BFD241D5C /* Pods_PhooskShareAPI_PhooskShareAPIUITests.framework */,
+				25705B74545CC3BC782035D8 /* Pods_PhooskShareAPITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2BD0BF824B8299D003386C1 = {
+			isa = PBXGroup;
+			children = (
+				E2BD0C0324B8299D003386C1 /* PhooskShareAPI */,
+				E2BD0C1F24B8299F003386C1 /* PhooskShareAPITests */,
+				E2BD0C2A24B8299F003386C1 /* PhooskShareAPIUITests */,
+				E2BD0C0224B8299D003386C1 /* Products */,
+				D00D8347AE01DD8FDBF0C3B4 /* Pods */,
+				D9430DF68ECFAC602CEDAE13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2BD0C0224B8299D003386C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD0C0124B8299D003386C1 /* PhooskShareAPI.app */,
+				E2BD0C1C24B8299F003386C1 /* PhooskShareAPITests.xctest */,
+				E2BD0C2724B8299F003386C1 /* PhooskShareAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2BD0C0324B8299D003386C1 /* PhooskShareAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD0C0424B8299D003386C1 /* AppDelegate.h */,
+				E2BD0C0524B8299D003386C1 /* AppDelegate.m */,
+				E2BD0C0724B8299D003386C1 /* SceneDelegate.h */,
+				E2BD0C0824B8299D003386C1 /* SceneDelegate.m */,
+				E2BD0C0A24B8299D003386C1 /* ViewController.h */,
+				E2BD0C0B24B8299D003386C1 /* ViewController.m */,
+				E2BD0C0D24B8299D003386C1 /* Main.storyboard */,
+				E2BD0C1024B8299F003386C1 /* Assets.xcassets */,
+				E2BD0C1224B8299F003386C1 /* LaunchScreen.storyboard */,
+				E2BD0C1524B8299F003386C1 /* Info.plist */,
+				E2BD0C1624B8299F003386C1 /* main.m */,
+			);
+			path = PhooskShareAPI;
+			sourceTree = "<group>";
+		};
+		E2BD0C1F24B8299F003386C1 /* PhooskShareAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD0C2024B8299F003386C1 /* PhooskShareAPITests.m */,
+				E2BD0C2224B8299F003386C1 /* Info.plist */,
+			);
+			path = PhooskShareAPITests;
+			sourceTree = "<group>";
+		};
+		E2BD0C2A24B8299F003386C1 /* PhooskShareAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD0C2B24B8299F003386C1 /* PhooskShareAPIUITests.m */,
+				E2BD0C2D24B8299F003386C1 /* Info.plist */,
+			);
+			path = PhooskShareAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2BD0C0024B8299D003386C1 /* PhooskShareAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BD0C3024B8299F003386C1 /* Build configuration list for PBXNativeTarget "PhooskShareAPI" */;
+			buildPhases = (
+				747E11D5659A56EB65B781E2 /* [CP] Check Pods Manifest.lock */,
+				E2BD0BFD24B8299D003386C1 /* Sources */,
+				E2BD0BFE24B8299D003386C1 /* Frameworks */,
+				E2BD0BFF24B8299D003386C1 /* Resources */,
+				52167975050D8504F76B7965 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhooskShareAPI;
+			productName = PhooskShareAPI;
+			productReference = E2BD0C0124B8299D003386C1 /* PhooskShareAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2BD0C1B24B8299F003386C1 /* PhooskShareAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BD0C3324B8299F003386C1 /* Build configuration list for PBXNativeTarget "PhooskShareAPITests" */;
+			buildPhases = (
+				ABA19040160CCBEE45008B08 /* [CP] Check Pods Manifest.lock */,
+				E2BD0C1824B8299F003386C1 /* Sources */,
+				E2BD0C1924B8299F003386C1 /* Frameworks */,
+				E2BD0C1A24B8299F003386C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BD0C1E24B8299F003386C1 /* PBXTargetDependency */,
+			);
+			name = PhooskShareAPITests;
+			productName = PhooskShareAPITests;
+			productReference = E2BD0C1C24B8299F003386C1 /* PhooskShareAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2BD0C2624B8299F003386C1 /* PhooskShareAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BD0C3624B8299F003386C1 /* Build configuration list for PBXNativeTarget "PhooskShareAPIUITests" */;
+			buildPhases = (
+				11EFA6FF611BDB4F03EBF251 /* [CP] Check Pods Manifest.lock */,
+				E2BD0C2324B8299F003386C1 /* Sources */,
+				E2BD0C2424B8299F003386C1 /* Frameworks */,
+				E2BD0C2524B8299F003386C1 /* Resources */,
+				4323949573B7CA1DC954633B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BD0C2924B8299F003386C1 /* PBXTargetDependency */,
+			);
+			name = PhooskShareAPIUITests;
+			productName = PhooskShareAPIUITests;
+			productReference = E2BD0C2724B8299F003386C1 /* PhooskShareAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2BD0BF924B8299D003386C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = phoosk;
+				TargetAttributes = {
+					E2BD0C0024B8299D003386C1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E2BD0C1B24B8299F003386C1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E2BD0C0024B8299D003386C1;
+					};
+					E2BD0C2624B8299F003386C1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E2BD0C0024B8299D003386C1;
+					};
+				};
+			};
+			buildConfigurationList = E2BD0BFC24B8299D003386C1 /* Build configuration list for PBXProject "PhooskShareAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2BD0BF824B8299D003386C1;
+			productRefGroup = E2BD0C0224B8299D003386C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2BD0C0024B8299D003386C1 /* PhooskShareAPI */,
+				E2BD0C1B24B8299F003386C1 /* PhooskShareAPITests */,
+				E2BD0C2624B8299F003386C1 /* PhooskShareAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2BD0BFF24B8299D003386C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD0C1424B8299F003386C1 /* LaunchScreen.storyboard in Resources */,
+				E2BD0C1124B8299F003386C1 /* Assets.xcassets in Resources */,
+				E2BD0C0F24B8299D003386C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD0C1A24B8299F003386C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD0C2524B8299F003386C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11EFA6FF611BDB4F03EBF251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhooskShareAPI-PhooskShareAPIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4323949573B7CA1DC954633B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhooskShareAPI-PhooskShareAPIUITests/Pods-PhooskShareAPI-PhooskShareAPIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhooskShareAPI-PhooskShareAPIUITests/Pods-PhooskShareAPI-PhooskShareAPIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhooskShareAPI-PhooskShareAPIUITests/Pods-PhooskShareAPI-PhooskShareAPIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52167975050D8504F76B7965 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhooskShareAPI/Pods-PhooskShareAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhooskShareAPI/Pods-PhooskShareAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhooskShareAPI/Pods-PhooskShareAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747E11D5659A56EB65B781E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhooskShareAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA19040160CCBEE45008B08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhooskShareAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2BD0BFD24B8299D003386C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD0C0C24B8299D003386C1 /* ViewController.m in Sources */,
+				E2BD0C0624B8299D003386C1 /* AppDelegate.m in Sources */,
+				E2BD0C1724B8299F003386C1 /* main.m in Sources */,
+				E2BD0C0924B8299D003386C1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD0C1824B8299F003386C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD0C2124B8299F003386C1 /* PhooskShareAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BD0C2324B8299F003386C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD0C2C24B8299F003386C1 /* PhooskShareAPIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2BD0C1E24B8299F003386C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BD0C0024B8299D003386C1 /* PhooskShareAPI */;
+			targetProxy = E2BD0C1D24B8299F003386C1 /* PBXContainerItemProxy */;
+		};
+		E2BD0C2924B8299F003386C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BD0C0024B8299D003386C1 /* PhooskShareAPI */;
+			targetProxy = E2BD0C2824B8299F003386C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2BD0C0D24B8299D003386C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BD0C0E24B8299D003386C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2BD0C1224B8299F003386C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BD0C1324B8299F003386C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2BD0C2E24B8299F003386C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2BD0C2F24B8299F003386C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BD0C3124B8299F003386C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4413CBF64F12FC6922B5E9 /* Pods-PhooskShareAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.phoosk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E2BD0C3224B8299F003386C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B929A4A670660F7D016D3DF /* Pods-PhooskShareAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.phoosk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E2BD0C3424B8299F003386C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228A77D3A9087CD0CC6004B8 /* Pods-PhooskShareAPITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.PhooskShareAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhooskShareAPI.app/PhooskShareAPI";
+			};
+			name = Debug;
+		};
+		E2BD0C3524B8299F003386C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298E91ADAC02887324B4D483 /* Pods-PhooskShareAPITests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.PhooskShareAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhooskShareAPI.app/PhooskShareAPI";
+			};
+			name = Release;
+		};
+		E2BD0C3724B8299F003386C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A20507CD9E61FB22263D531 /* Pods-PhooskShareAPI-PhooskShareAPIUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.PhooskShareAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhooskShareAPI;
+			};
+			name = Debug;
+		};
+		E2BD0C3824B8299F003386C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C76E3D6F3409905D3236B75 /* Pods-PhooskShareAPI-PhooskShareAPIUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXCLU9FKK5;
+				INFOPLIST_FILE = PhooskShareAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoosk.PhooskShareAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhooskShareAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2BD0BFC24B8299D003386C1 /* Build configuration list for PBXProject "PhooskShareAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BD0C2E24B8299F003386C1 /* Debug */,
+				E2BD0C2F24B8299F003386C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BD0C3024B8299F003386C1 /* Build configuration list for PBXNativeTarget "PhooskShareAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BD0C3124B8299F003386C1 /* Debug */,
+				E2BD0C3224B8299F003386C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BD0C3324B8299F003386C1 /* Build configuration list for PBXNativeTarget "PhooskShareAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BD0C3424B8299F003386C1 /* Debug */,
+				E2BD0C3524B8299F003386C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BD0C3624B8299F003386C1 /* Build configuration list for PBXNativeTarget "PhooskShareAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BD0C3724B8299F003386C1 /* Debug */,
+				E2BD0C3824B8299F003386C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2BD0BF924B8299D003386C1 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_PhooskShareAPITests {
+  umbrella header "Pods-PhooskShareAPITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

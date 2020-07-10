@@ -1,0 +1,6 @@
+framework module Pods_PhooskShareAPI {
+  umbrella header "Pods-PhooskShareAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
